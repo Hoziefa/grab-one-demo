@@ -1,0 +1,23 @@
+@import "../abstracts/mixins";
+
+.enroll {
+    .enroll__wrapper {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 2rem;
+        background-color: #FFF;
+        border-bottom: 1px solid #DCE3ED;
+
+        .enroll__description {
+            font-size: 1.5rem;
+            font-weight: bolder;
+            flex: 1;
+            color: $primary-color;
+        }
+
+        .enroll__field {
+            @include send-email-field;
+        }
+    }
+}

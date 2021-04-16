@@ -1,0 +1,84 @@
+@import "../abstracts/mixins";
+
+.main-navbar {
+    .main-navbar__primary-nav {
+        padding: 0.5rem 0;
+        color: white;
+        background-color: $primary-color;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo {
+                font-size: 2rem;
+                font-weight: bolder;
+            }
+        }
+    }
+
+    .main-navbar__secondary-nav {
+        position: relative;
+        z-index: 8;
+        padding: 0.5rem 0;
+        background: #FFF;
+        box-shadow: 0 0 10px 0 #4B546038;
+        backface-visibility: hidden;
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .main-navbar__links-container {
+                display: flex;
+                align-items: center;
+                flex: 1;
+                gap: 2.75rem;
+
+                li {
+                    cursor: pointer;
+                    text-transform: capitalize;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+
+            .main-navbar__search-box {
+                position: relative;
+                flex-basis: 500px;
+
+                svg {
+                    position: absolute;
+                    top: 50%;
+                    left: 10px;
+                    transform: translateY(-50%);
+                }
+
+                input {
+                    padding: 0.6rem 0.55rem 0.6rem 2.5rem;
+                    color: #B3B7BC;
+                    background-color: #FFF;
+                    border: 1px solid #DCE3ED;
+                    border-radius: 5px;
+                    box-shadow: 0 0 8px 0 #4F58641A;
+                }
+            }
+        }
+    }
+
+    @include respond(custom-media, 0, 1087px) {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 55;
+        width: 100%;
+
+        .main-navbar__secondary-nav {
+            display: none;
+        }
+    }
+}

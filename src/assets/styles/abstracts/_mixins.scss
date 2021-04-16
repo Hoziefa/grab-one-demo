@@ -1,0 +1,85 @@
+@import "variables";
+
+@mixin respond($breakpoint, $min: 0, $max: 100vw) {
+    @if $breakpoint==custom-media {
+        @media (min-width: $min) and (max-width: $max) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==phone {
+        @media (max-width: 425px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==tab-port {
+        @media (max-width: 768px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==tab-land {
+        @media (max-width: 1024px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==laptop {
+        @media (min-width: 1400px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint==desktop {
+        @media (min-width: 1800px) {
+            @content;
+        }
+    }
+}
+
+@mixin get-window-rest-height($subtraction-operand: 0) {
+    @if ($subtraction-operand > 0) {
+        min-height: calc(100vh - #{$nav-height} - #{$subtraction-operand});
+    } @else {
+        min-height: calc(100vh - #{$nav-height});
+    }
+}
+
+@mixin send-email-field {
+    position: relative;
+    display: flex;
+    flex: 0.9;
+    color: #92A2AD;
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+    }
+
+    input {
+        padding: 0.8rem 0 0.8rem 2.5rem;
+        background-color: #FFF;
+        border: 1px solid #DCE3ED;
+        border-radius: 5px;
+        box-shadow: 0 0 8px 0 #4F58641A;
+    }
+
+    button {
+        font-family: $decorated3rd-font;
+        padding: 0 2rem;
+        text-transform: capitalize;
+        color: white;
+        background: $primary-color;
+        border-radius: 0 5px 5px 0;
+        box-shadow: 0 0 8px 0 #01B2EE80;
+        transition: background-color 0.3s;
+
+        &:hover,
+        &:active {
+            background-color: #24C7FE;
+        }
+    }
+}

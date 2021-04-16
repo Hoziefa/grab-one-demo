@@ -1,0 +1,771 @@
+{
+    "data": {
+        "discover": {
+            "discoverMenuItems": [
+                { "name": "Featured Auckland deals", "amount": 128 },
+                { "name": "Collections", "amount": 36 },
+                { "name": "Escapes", "amount": 96 },
+                { "name": "Picked for You", "amount": null },
+                { "name": "Activities, Events & Outdoors", "amount": 117 },
+                { "name": "Store", "amount": 964 },
+                { "name": "Restaurants, Bars, Cafes", "amount": 50 },
+                { "name": "Beauty, Massage & Spa", "amount": 240 },
+                { "name": "House & Garden", "amount": 526 },
+                { "name": "Fitness & Sports", "amount": 55 },
+                { "name": "Automotive", "amount": 62 }
+            ],
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/33589083218958c8fb8b2856b69312267faffd07.jpg",
+                        "figcaption": "Four Star, One-Night Stay in a Deluxe Room incl. Cooked Breakfast, Late Checkout & Six-Course Degustation Dinner for Two People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "One-Night Boutique Waitakere Ranges Escape",
+                            "vendor": { "name": "Waitakere Resort & Spa - Auckland", "location": "Auckland" }
+                        },
+                        "content": { "purchaseCount": 19, "price": { "oldPrice": null, "newPrice": 299 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                }
+            ]
+        },
+
+        "deals": {
+            "sectionTitle": "Featured Auckland deals",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/33589083218958c8fb8b2856b69312267faffd07.jpg",
+                        "figcaption": "Four Star, One-Night Stay in a Deluxe Room incl. Cooked Breakfast, Late Checkout & Six-Course Degustation Dinner for Two People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "One-Night Boutique Waitakere Ranges Escape",
+                            "vendor": { "name": "Waitakere Resort & Spa - Auckland", "location": "Auckland" }
+                        },
+                        "content": { "purchaseCount": 19, "price": { "oldPrice": null, "newPrice": 299 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/495x343/7a54d766b8a20a9b6efe7c02c6a2e289b3328b60.jpg",
+                        "figcaption": "Rafting & Lake Adventure Combo incl. Ice Cream for One Person - Options for up to Seven People"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Water Sports Experience",
+                            "vendor": { "name": "Vector Wero Whitewater Park", "location": "Wiri" }
+                        },
+                        "content": { "purchaseCount": 112, "price": { "oldPrice": 74, "newPrice": 39 } }
+                    }
+                }
+            ]
+        },
+
+        "collections": {
+            "sectionTitle": "Collections",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null }, "linkContent": "view content" }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null }, "linkContent": "view content" }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null }, "linkContent": "view content" }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null }, "linkContent": "view content" }
+                    }
+                }
+            ]
+        },
+
+        "escapes": {
+            "sectionTitle": "Escapes",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "activitiesEvents": {
+            "sectionTitle": "Activities, Events & Outdoors",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "store": {
+            "sectionTitle": "Store",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "restaurantsBarsCafes": {
+            "sectionTitle": "Restaurants, Bars, Cafes",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "beautyMassageSpa": {
+            "sectionTitle": "Beauty, Massage & Spa",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "houseGarden": {
+            "sectionTitle": "House & Garden",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "fitnessSports": {
+            "sectionTitle": "Fitness & Sports",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/glCpegKUlf",
+                        "figcaption": "Discover Queenstown"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Discover Queenstown",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/N6erdz3ywk",
+                        "figcaption": "Ugg collection"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Ugg collection",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/zdfPcgPJxF",
+                        "figcaption": "GO Local & Support NZ business"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "GO Local & Support NZ business",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://mediacdn.grabone.co.nz/asset/GZrL0PITKA",
+                        "figcaption": "Grocery Goodies"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Grocery Goodies",
+                            "vendor": { "name": "Multiple deals", "location": null }
+                        },
+                        "content": { "purchaseCount": null, "price": { "oldPrice": null, "newPrice": null } }
+                    }
+                }
+            ]
+        },
+
+        "automotive": {
+            "sectionTitle": "Automotive",
+            "items": [
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/325x225/69c582abf85c9585a773d836a8c7115633091099.jpg",
+                        "figcaption": "Comprehensive Mobile Car Service - Valid Monday to Saturday"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Comprehensive Mobile Car Service - Valid Monday to Saturday",
+                            "vendor": { "name": "Carologist Limited", "location": null }
+                        },
+                        "content": { "purchaseCount": 21, "price": { "oldPrice": null, "newPrice": 99 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/325x225/f300e9d4fb2f3bd6e49450ec078f4780bb8dd59d.jpg",
+                        "figcaption": "Comprehensive Car Service for a Japanese Vehicle - Option for European Vehicle"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Comprehensive Car Service",
+                            "vendor": { "name": "Bj WOF & Automotive Centre", "location": "East Tamaki" }
+                        },
+                        "content": { "purchaseCount": 9, "price": { "oldPrice": null, "newPrice": 59 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/325x225/f1204a2f95da6d28e0598fc065243879a8a00ab5.jpg",
+                        "figcaption": "Standard Service Oil Change incl. Oil Filter"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Comprehensive Standard Service Oil Change",
+                            "vendor": { "name": "Valley Tyres", "location": "Wairau Valley" }
+                        },
+                        "content": { "purchaseCount": 4, "price": { "oldPrice": null, "newPrice": 59 } }
+                    }
+                },
+                {
+                    "id": "",
+                    "figure": {
+                        "badge": null,
+                        "url": "https://main-cdn.grabone.co.nz/goimage/325x225/564f231c9702606e6581461a1199d4bb8d30cee9.jpg",
+                        "figcaption": "Warrant of Fitness - Option for Basic Car Service & to incl. Basic Car Grooming"
+                    },
+                    "details": {
+                        "header": {
+                            "title": "Car Warrant of Fitness",
+                            "vendor": { "name": "Kristol Automotive Repairs", "location": "Mount Wellington" }
+                        },
+                        "content": { "purchaseCount": 10, "price": { "oldPrice": 45, "newPrice": 15 } }
+                    }
+                }
+            ]
+        }
+    }
+}
