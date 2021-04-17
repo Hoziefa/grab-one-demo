@@ -7,7 +7,7 @@ class DataProvider {
 
     private constructor() {}
 
-    public static getInstance(): DataProvider {
+    public static get dataProvider(): DataProvider {
         if (!DataProvider.instance) DataProvider.instance = new DataProvider();
 
         return DataProvider.instance;
@@ -18,4 +18,4 @@ class DataProvider {
     }
 }
 
-export const dataProvider = DataProvider.getInstance();
+export const { dataProvider } = DataProvider;
