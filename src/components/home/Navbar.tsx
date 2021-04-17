@@ -54,20 +54,16 @@ export class Navbar extends Component<{}, INavbarState> {
                         <h3 className="title">Automotive</h3>
                         <ul className="list">
                             <li>
-                                Adventure & Outdoors
-                                <span className="preview">Bungy Jumping, Camping, Horse Riding, Hunting & Fishing, Kayaking</span>
+                                Automotive Parts & Accessories
+                                <span className="preview">Automotive Accessories, Car Parts, Motorbike Parts, Tyres</span>
                             </li>
                             <li>
-                                Events, Shows & Tickets
-                                <span className="preview">Circus, Comedy, Concerts, Expos & Conventions, Festivals</span>
+                                Car Electronics
+                                <span className="preview">Car Alarms, Car Amplifiers, Car GPS, Car Handsfree, Car Speakers</span>
                             </li>
                             <li>
-                                Fun & Leisure
-                                <span className="preview">Amusement Parks, Bowling, Bus & Boat Tours, Dolphin & Whale Watching, Food Tours</span>
-                            </li>
-                            <li>
-                                Kids Activities
-                                <span className="preview">Kid's Camps, Kid's Classes, Kid's Shows, Play Centres, Trampoline</span>
+                                Wash, Repairs & Maintenance
+                                <span className="preview">Automotive Servicing, Car Wash & Grooming, Panel & Paint, Warrant of Fitness (WOF), Wheel Alignment</span>
                             </li>
                         </ul>
                     </div>
@@ -83,20 +79,28 @@ export class Navbar extends Component<{}, INavbarState> {
                         <h3 className="title">Baby, Kids & Toys</h3>
                         <ul className="list">
                             <li>
-                                Adventure & Outdoors
-                                <span className="preview">Bungy Jumping, Camping, Horse Riding, Hunting & Fishing, Kayaking</span>
+                                Baby Essentials
+                                <span className="preview">Baby Feeding, Baby Gates, Baby Health & Safety, Baby Monitors, Bathing & Changing</span>
                             </li>
                             <li>
-                                Events, Shows & Tickets
-                                <span className="preview">Circus, Comedy, Concerts, Expos & Conventions, Festivals</span>
+                                Baby Gear
+                                <span className="preview">Baby Travel Accessories, Car Seats & Strollers, Carriers & Slings, High Chairs & Boosters, Jumpers & Bouncers</span>
                             </li>
                             <li>
-                                Fun & Leisure
-                                <span className="preview">Amusement Parks, Bowling, Bus & Boat Tours, Dolphin & Whale Watching, Food Tours</span>
+                                Clothing & Accessories - Boys
+                                <span className="preview">Boys Accessories, Boys Bags, Boys Bodysuits, Boys Growsuits, Boys Hats & Caps</span>
                             </li>
                             <li>
-                                Kids Activities
-                                <span className="preview">Kid's Camps, Kid's Classes, Kid's Shows, Play Centres, Trampoline</span>
+                                Clothing & Accessories - Girls
+                                <span className="preview">Girls Accessories, Girls Bags, Girls Bodysuits, Girls Dresses, Girls Growsuits</span>
+                            </li>
+                            <li>
+                                Nursery & Toddlers Room
+                                <span className="preview">Baby Furniture, Nursery & Toddlers Bedding, Nursery & Toddlers Decor, Toddler Furniture</span>
+                            </li>
+                            <li>
+                                Toys
+                                <span className="preview">Action Figures & Accessories, Bikes, Scooters & Ride-Ons, Building Blocks & LEGO, Dolls & Accessories, Learning & Development</span>
                             </li>
                         </ul>
                     </div>
@@ -284,6 +288,64 @@ export class Navbar extends Component<{}, INavbarState> {
                 return (
                     <div>
                         <h3 className="title">Grocery & Food</h3>
+                        <ul className="list">
+                            <li>
+                                First Aid
+                                <span className="preview">Bandages, Disinfectant, First Aid Kit, Gauze</span>
+                            </li>
+                            <li>
+                                Household
+                                <span className="preview">Air Fresheners, Cleaning Supplies, Insect Repellent, Lighting & Batteries</span>
+                            </li>
+                            <li>
+                                Personal Care
+                                <span className="preview">Deodorant, Sanitary Products, Sunscreen, Tissues & Cotton Products</span>
+                            </li>
+                            <li>
+                                Retail Food & Drink
+                                <span className="preview">Baking, Beverages, Breakfast & Cereal, Butchery Meats, Canned Goods & Soups</span>
+                            </li>
+                        </ul>
+                    </div>
+                );
+            },
+        },
+        {
+            id: idGenerator('dropdown-item'),
+            title: 'Health, Nutrition & Dental',
+            children: (): JSX.Element => {
+                return (
+                    <div>
+                        <h3 className="title">Health, Nutrition & Dental</h3>
+                        <ul className="list">
+                            <li>
+                                First Aid
+                                <span className="preview">Bandages, Disinfectant, First Aid Kit, Gauze</span>
+                            </li>
+                            <li>
+                                Household
+                                <span className="preview">Air Fresheners, Cleaning Supplies, Insect Repellent, Lighting & Batteries</span>
+                            </li>
+                            <li>
+                                Personal Care
+                                <span className="preview">Deodorant, Sanitary Products, Sunscreen, Tissues & Cotton Products</span>
+                            </li>
+                            <li>
+                                Retail Food & Drink
+                                <span className="preview">Baking, Beverages, Breakfast & Cereal, Butchery Meats, Canned Goods & Soups</span>
+                            </li>
+                        </ul>
+                    </div>
+                );
+            },
+        },
+        {
+            id: idGenerator('dropdown-item'),
+            title: 'Holidays, Hotels & Travel',
+            children: (): JSX.Element => {
+                return (
+                    <div>
+                        <h3 className="title">Holidays, Hotels & Travel</h3>
                         <ul className="list">
                             <li>
                                 First Aid

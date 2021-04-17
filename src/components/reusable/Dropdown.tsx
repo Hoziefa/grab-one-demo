@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { IoIosArrowDown, IoIosArrowForward } from 'react-icons/all';
 
 interface IDropdownProps {
@@ -20,12 +20,12 @@ export const Dropdown: React.FC<IDropdownProps> = ({ header, dropdownList, hasTe
         toggleBackdrop?.(!isOpen);
     };
 
-    const onDropdownBlur = ({ target }: Event): void => {
+    const onDropdownBlur = useCallback(({ target }: Event): void => {
         if (dropdown.current?.contains(target as Node)) return;
 
         setIsOpen(false);
         toggleBackdrop?.(false);
-    };
+    }, [toggleBackdrop]);
 
     useEffect((): () => void => {
         document.addEventListener('click', onDropdownBlur);
@@ -33,7 +33,7 @@ export const Dropdown: React.FC<IDropdownProps> = ({ header, dropdownList, hasTe
         return (): void => {
             document.removeEventListener('click', onDropdownBlur);
         };
-    }, []);
+    }, [onDropdownBlur]);
 
     const renderDropdownItems = (): JSX.Element[] => (dropdownList.map((dropdownItem): JSX.Element => {
         return typeof dropdownItem === 'string'

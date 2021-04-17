@@ -5,5 +5,5 @@ import { dataProvider } from '../../services/DataProvider';
 export const HouseGarden: React.FC = (): JSX.Element => {
     const { sectionTitle, items } = dataProvider.getSectionData('houseGarden');
 
-    return <section className="house-garden container"><SectionLayout sectionTitle={ sectionTitle } itemsList={ items } /></section>;
+    return <section className="house-garden container section-container"><SectionLayout sectionTitle={ sectionTitle } itemsList={ items } /></section>;
 };

@@ -19,7 +19,7 @@
         gap: 1rem;
 
         aside {
-            flex-basis: 24.85%;
+            flex-basis: 34%;
             background-color: white;
             border-radius: 0.5rem;
 
@@ -57,6 +57,8 @@
         }
 
         .discover-section__items-container {
+            width: 100%;
+
             .items-list {
                 display: flex;
                 gap: 1rem;
@@ -76,7 +78,7 @@
         }
     }
 
-    @include respond(tab-port) {
+    @include respond(custom-media, 0, 650px) {
         .discover-section__search-content {
             display: block;
 

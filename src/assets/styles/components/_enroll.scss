@@ -20,4 +20,16 @@
             @include send-email-field;
         }
     }
+
+    @include respond(custom-media, 0, 1160px) {
+        .enroll__wrapper {
+            justify-content: center;
+            row-gap: 1.25rem;
+
+            .enroll__description {
+                flex-basis: 100%;
+                text-align: center;
+            }
+        }
+    }
 }
