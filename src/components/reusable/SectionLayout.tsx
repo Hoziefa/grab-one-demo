@@ -12,7 +12,7 @@ export const SectionLayout: React.FC<ISectionLayoutProps> = ({ sectionTitle, ite
     return (
         <div className="section-layout">
             <header className="section-layout__header">
-                <h2 className="section-layout__title">{ sectionTitle }</h2>
+                <h2 className="section-layout__title clickable">{ sectionTitle }</h2>
                 <button aria-label="view content" className="section-layout__btn">view content <IoIosArrowForward size="1rem" /></button>
             </header>
 

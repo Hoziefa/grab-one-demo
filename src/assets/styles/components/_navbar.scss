@@ -15,12 +15,37 @@
                 font-size: 2rem;
                 font-weight: bolder;
             }
+
+            .main-navbar__wrapper {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+
+                .main-navbar__region-links {}
+
+                .main-navbar__account-links {
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+
+                    li {
+                        cursor: pointer;
+                        text-transform: capitalize;
+
+                        &.main-navbar__subscribe-link {
+                            display: flex;
+                            align-items: center;
+                            gap: 0.25rem;
+                        }
+                    }
+                }
+            }
         }
     }
 
     .main-navbar__secondary-nav {
         position: relative;
-        z-index: 8;
+        z-index: 12;
         padding: 0.5rem 0;
         background: #FFF;
         box-shadow: 0 0 10px 0 #4B546038;
@@ -37,9 +62,19 @@
                 flex: 1;
                 gap: 2.75rem;
 
-                li {
+                .main-navbar__links-item {
                     cursor: pointer;
                     text-transform: capitalize;
+
+                    .dropdown {
+                        .dropdown__toggle-btn {
+                            color: $primary-text-color;
+
+                            svg {
+                                color: $primary-color;
+                            }
+                        }
+                    }
 
                     &:hover {
                         color: $primary-color;
@@ -76,6 +111,31 @@
         left: 0;
         z-index: 55;
         width: 100%;
+
+        .main-navbar__primary-nav {
+            .container {
+                .main-navbar__wrapper {
+                    .main-navbar__region-links {
+                        .region-links {
+                            .dropdown__dropdown-list {
+                                left: auto;
+                                right: 0;
+                                overflow-y: auto;
+                                max-height: 60vh;
+
+                                &::before {
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .main-navbar__account-links {
+                        display: none;
+                    }
+                }
+            }
+        }
 
         .main-navbar__secondary-nav {
             display: none;

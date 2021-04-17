@@ -1,7 +1,7 @@
 @import "../abstracts/mixins";
 
 .app-footer {
-    margin-top: 25%;
+    padding-top: 0.75rem;
 
     .app-footer__info {
         display: flex;
@@ -147,5 +147,9 @@
                 flex-basis: 100%;
             }
         }
+    }
+
+    @include respond(custom-media, 0, 1087px) {
+        padding-bottom: 5.5rem;
     }
 }

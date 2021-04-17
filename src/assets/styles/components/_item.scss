@@ -34,9 +34,9 @@
                     height: 100%;
                     padding: 1rem;
                     text-align: center;
-                    opacity: 0;
                     color: white;
                     background-color: #01B2EEE6;
+                    opacity: 0;
                     transition: opacity 0.3s;
                 }
 
@@ -69,10 +69,16 @@
                             display: block;
 
                             &:first-of-type {
+                                overflow: hidden;
+                                width: 100%;
+                                white-space: nowrap;
+                                text-overflow: ellipsis;
                                 color: $primary-color;
                             }
 
                             &:last-of-type {
+                                font-size: smaller;
+                                min-height: 21px;
                                 color: #92A2AD;
                             }
                         }
@@ -114,11 +120,11 @@
                                 }
 
                                 &::before {
+                                    content: "from";
                                     font-size: 0.9rem;
                                     position: absolute;
                                     top: 0;
                                     right: 0;
-                                    content: "from";
                                     color: inherit;
                                     transform: translateY(-80%);
                                 }
@@ -137,9 +143,9 @@
             width: 30px;
             height: 30px;
             cursor: grabbing;
-            opacity: .9;
             background: #EFF3FA 0 0 no-repeat padding-box;
             border-radius: 50%;
+            opacity: .9;
 
             svg {
                 position: absolute;
@@ -177,10 +183,10 @@
         }
 
         &::before, &::after {
+            content: "";
             position: absolute;
             left: 0;
             height: 8px;
-            content: "";
             background-color: white;
             border-bottom: 1px solid #CED5DF;
         }

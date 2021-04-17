@@ -164,7 +164,17 @@ button:disabled {
     cursor: pointer;
 }
 
-//Todo: for development mode only:
-body {
-    height: 500vh;
+.txt-transform {
+    text-transform: capitalize;
+}
+
+.fancy-scrollbar {
+    &::-webkit-scrollbar {
+        width: 0.35rem;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #C1C1C1;
+        border-radius: 20px;
+    }
 }

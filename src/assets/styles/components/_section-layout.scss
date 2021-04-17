@@ -11,6 +11,11 @@
 
         .section-layout__title {
             font-size: 2rem;
+            transition: color 0.3s;
+
+            &:hover {
+                color: $primary-color;
+            }
         }
 
         .section-layout__btn {

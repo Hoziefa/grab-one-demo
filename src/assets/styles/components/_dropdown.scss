@@ -1,1 +1,160 @@
 @import "../abstracts/mixins";
+
+.dropdown {
+    position: relative;
+
+    .dropdown__toggle-btn {
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: white;
+        gap: 0.35rem;
+
+        &.active {
+            color: $primary-color !important;
+        }
+    }
+
+    .dropdown__dropdown-list {
+        position: absolute;
+        top: calc(10px + 1.75rem);
+        left: 0;
+        z-index: 15;
+        min-width: 260px;
+        background-color: white;
+        border: 1px solid #DCE3ED;
+        box-shadow: 0 1px 1px #00000026;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateX(-1%);
+        transition: opacity 0.15s ease-in;
+
+        .dropdown__item {
+            font-size: 90%;
+            color: $primary-text-color;
+
+            & + li {
+                border-top: 1px solid #EEEEF4;
+            }
+        }
+
+        &.has-text-bubble {
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                border-width: 8px;
+                border-style: solid;
+                border-color: transparent transparent white;
+                transform: translate(5px, -16px);
+            }
+        }
+
+        &.has-depth {
+            top: calc(9px + 1.75rem);
+            padding: 1rem 0 0;
+            transform: translateX(-6%);
+
+            .dropdown__item {
+                .left-item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0.5rem 0.6rem;
+
+                    svg {
+                        color: #92A2AD;
+                        transition: .15s ease-out;
+                    }
+                }
+
+                .right-item {
+                    position: absolute;
+                    top: -1px;
+                    right: 0;
+                    overflow: hidden;
+                    min-width: 380px;
+                    height: calc(100% + 2px);
+                    padding: 1.375rem;
+                    cursor: auto;
+                    background-color: white;
+                    border-top: 1px solid #DCE3ED;
+                    border-left: 1px solid #DCE3ED;
+                    border-bottom-right-radius: 0.5rem;
+                    transform: translateX(100%);
+
+                    .title {
+                        font-weight: 500;
+                        margin-bottom: 1.25rem;
+                        color: $primary-color;
+                    }
+
+                    .list {
+                        li {
+                            font-size: 0.95rem;
+                            padding: 0.5rem 0;
+                            cursor: pointer;
+                            text-transform: capitalize;
+                            border: none;
+
+                            span {
+                                font-size: 90%;
+                                line-height: 1.6;
+                                display: block;
+                                overflow: hidden;
+                                max-width: 250px;
+                                white-space: nowrap;
+                                text-transform: capitalize;
+                                text-overflow: ellipsis;
+                                color: #92A2AD;
+                            }
+
+                            &:hover {
+                                color: $primary-color;
+                            }
+                        }
+                    }
+                }
+
+                &:hover,
+                &.active {
+                    .left-item {
+                        color: $primary-color;
+
+                        svg {
+                            color: $primary-text-color;
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+            }
+
+            .browse-all {
+                padding: 1rem;
+                color: $primary-color;
+                border-top: 1px solid #DCE3ED;
+            }
+        }
+
+        &:not(.has-depth) {
+            .dropdown__item {
+                padding: 1rem;
+
+                &:hover,
+                &.active {
+                    .dropdown__item-text {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &.open {
+        .dropdown__dropdown-list {
+            opacity: 1;
+            pointer-events: all;
+        }
+    }
+}
