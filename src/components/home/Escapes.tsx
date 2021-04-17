@@ -5,5 +5,5 @@ import { dataProvider } from '../../services/DataProvider';
 export const Escapes: React.FC = (): JSX.Element => {
     const { sectionTitle, items } = dataProvider.getSectionData('escapes');
 
-    return <section className="escapes container"><SectionLayout sectionTitle={ sectionTitle } itemsList={ items } /></section>;
+    return <section className="escapes container section-container"><SectionLayout sectionTitle={ sectionTitle } itemsList={ items } /></section>;
 };

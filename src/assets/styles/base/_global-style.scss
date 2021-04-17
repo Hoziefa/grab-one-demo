@@ -178,3 +178,12 @@ button:disabled {
         border-radius: 20px;
     }
 }
+
+.section-container {
+    max-width: 940px;
+    margin: auto;
+
+    @include respond(custom-media, 1160px) {
+        max-width: none;
+    }
+}

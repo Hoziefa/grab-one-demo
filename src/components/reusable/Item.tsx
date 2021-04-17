@@ -30,7 +30,7 @@ export const Item: React.FC<IItemProps> = ({ figure, details }): JSX.Element => 
                                     </button>)
                                     :
                                     <div className="item__item-card-content-body-wrapper">
-                                        <div className="item__item-card-content-purchase-count">{ details.content.purchaseCount } bought</div>
+                                        <div className="item__item-card-content-purchase-count">{ details.content.purchaseCount ? `${ details.content.purchaseCount }bought` : '' }</div>
                                         <div className="item__item-card-content-pricing">
                                             { details.content.price.oldPrice &&
                                             <span className="item__item-card-content-pricing-old"><FaDollarSign />{ formatNum(details.content.price.oldPrice) }</span>

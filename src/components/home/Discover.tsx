@@ -7,7 +7,7 @@ export const Discover: React.FC = (): JSX.Element => {
 
     return (
         <section className="discover-section">
-            <div className="container">
+            <div className="container section-container">
                 <header className="discover-section__header-image"><img src="https://mediacdn.grabone.co.nz/asset/aOqUZHjneM" alt="gifts" /></header>
 
                 <div className="discover-section__search-content">

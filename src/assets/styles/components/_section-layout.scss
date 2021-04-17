@@ -40,7 +40,7 @@
     .items-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.75rem 1rem;
 
         li {
             flex-basis: 100%;
@@ -55,7 +55,7 @@
         }
     }
 
-    @include respond(custom-media, 1088px) {
+    @include respond(custom-media, 1160px) {
         .items-list {
             li {
                 flex-basis: calc(100% / 4 - 0.75rem);

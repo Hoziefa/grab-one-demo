@@ -76,7 +76,23 @@
         }
     }
 
-    @include respond(tab-port) {
+    @include respond(custom-media, 0, 991px) {
+        .discover-section__search-content {
+            .items-list {
+                .item {
+                    article {
+                        .item__item-card-content {
+                            .item__title {
+                                white-space: revert;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include respond(custom-media, 0, 650px) {
         .discover-section__search-content {
             display: block;
 
