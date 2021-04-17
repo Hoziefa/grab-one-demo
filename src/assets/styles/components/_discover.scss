@@ -1,0 +1,88 @@
+@import "../abstracts/mixins";
+
+.discover-section {
+    padding: 2rem 0;
+
+    .discover-section__header-image {
+        padding-bottom: 2.1875rem;
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    .discover-section__search-content {
+        display: flex;
+        gap: 1rem;
+
+        aside {
+            flex-basis: 24.85%;
+            background-color: white;
+            border-radius: 0.5rem;
+
+            header {
+                font-size: 1.75rem;
+                font-weight: 700;
+                padding: 1rem 1.25rem;
+                text-transform: capitalize;
+                color: $primary-color;
+                border-bottom: 1px solid #DCE3ED;
+            }
+
+            .discover-section__discovery-menu {
+                li {
+                    font-size: 94%;
+                    font-weight: 500;
+                    line-height: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0.94rem 1.25rem;
+                    cursor: pointer;
+                    border-bottom: 1px solid #F7F9FB;
+                    transition: 0.3s;
+
+                    .discover-section__item-amount {
+                        color: #92A2AD;
+                    }
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+
+        .discover-section__items-container {
+            .items-list {
+                display: flex;
+                gap: 1rem;
+
+                li {
+                    flex: 1;
+                }
+            }
+        }
+    }
+
+    @include respond(custom-media, 0, 1160px) {
+        .discover-section__search-content {
+            aside {
+                display: none;
+            }
+        }
+    }
+
+    @include respond(tab-port) {
+        .discover-section__search-content {
+            display: block;
+
+            .items-list {
+                flex-direction: column;
+            }
+        }
+    }
+}
